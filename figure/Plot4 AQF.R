@@ -26,5 +26,5 @@ with(times, {plot(Global_active_power ~ timestamp, type = "l",
   plot(Global_reactive_power ~ timestamp, type = "l", 
        ylab = "Global_reactive_power", xlab = "datetime")})
 dev.off()
-dev.copy(png, file="plot1.png", width=480, height=480)
+dev.copy(png, file="plot4 AQF.png", width=480, height=480)
 dev.off()
